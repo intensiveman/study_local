@@ -1,0 +1,17 @@
+# 应用名称
+spring:
+  application:
+    name: study
+  profiles:
+    active: dev
+
+name: zhangsan
+
+person:
+  name: zhangsan
+  age: 23
+
+
+address:
+  - beijing
+  - shanghai
