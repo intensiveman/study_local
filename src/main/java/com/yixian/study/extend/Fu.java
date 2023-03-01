@@ -10,7 +10,13 @@ public class Fu {
 
     public int num = 20;
 
-    public void show() {
+    public String name;
+
+    public Fu() {
+        name = "hello";
+    }
+
+    public void fuShow() {
         System.out.println("fu...");
     }
 }

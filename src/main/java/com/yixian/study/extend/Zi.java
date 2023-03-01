@@ -9,7 +9,11 @@ package com.yixian.study.extend;
 public class Zi extends Fu{
     public int num = 10;
 
-    public void show() {
-        System.out.println("zi...");
+    public Zi() {
+
+    }
+
+    public void ziShow() {
+        System.out.println(name);
     }
 }
