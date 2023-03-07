@@ -9,11 +9,12 @@ spring:
       url: jdbc:mysql://114.116.233.79:3306/springBoot?serverTimezone=UTC
       username: root
       password: 199604070010aA!
-  redis:
-    host: 114.116.233.79
-    port: 6379
-    username: default
-    password: 199604070010aA!
+  data:
+    redis:
+      host: 114.116.233.79
+      port: 6379
+      username: default
+      password: 199604070010aA!
 
 
 mybatis-plus:

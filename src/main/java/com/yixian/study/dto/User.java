@@ -1,5 +1,6 @@
 package com.yixian.study.dto;
 
+import com.yixian.study.extend.Service;
 import lombok.Data;
 
 /**
@@ -11,6 +12,7 @@ import lombok.Data;
  */
 @Data
 public class User {
+
 
     private int id;
 

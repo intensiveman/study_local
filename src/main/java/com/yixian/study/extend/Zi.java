@@ -10,7 +10,7 @@ public class Zi extends Fu{
     public int num = 10;
 
     public Zi() {
-
+        System.out.println("zi"+this);
     }
 
     public void ziShow() {

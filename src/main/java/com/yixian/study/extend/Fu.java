@@ -13,6 +13,7 @@ public class Fu {
     public String name;
 
     public Fu() {
+        System.out.println("fu   "+this.getClass());
         name = "hello";
     }
 

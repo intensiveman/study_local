@@ -1,7 +1,9 @@
 package com.yixian.study.test;
 
 import com.yixian.study.dto.Student;
+import com.yixian.study.dto.User;
 import com.yixian.study.extend.Fu;
+import com.yixian.study.extend.Service;
 import com.yixian.study.extend.Zi;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.juli.logging.LogFactory;
@@ -23,11 +25,16 @@ import java.util.stream.Stream;
  * @author: wangdi
  * @date: 2022-12-31 9:45
  */
-@Slf4j
+
 public class Test {
 
+
+
     public static void main(String[] args) {
-        System.out.println(10<<2);
+        User user = new User();
+        Class<? extends User> aClass = user.getClass();
+        Class<?>[] interfaces = aClass.getInterfaces();
+        System.out.println("interfaces = " + interfaces[0].getName());
     }
 
 
@@ -36,16 +43,6 @@ public class Test {
 
 
 
-
-    /**
-     * @description: <description your method purpose>
-     * @author yixian
-     * @date 2023-02-28 21:42
-     * @param  * @param i
-     * @param name
-     * @return int
-     * @throws
-     */
 
 
 

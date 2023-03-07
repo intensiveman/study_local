@@ -8,10 +8,14 @@ spring:
 name: zhangsan
 
 person:
-  name: zhangsan
+  name: lisi
   age: 23
 
 
 address:
   - beijing
   - shanghai
+
+logging:
+  file:
+    path: /app/logs
