@@ -15,5 +15,8 @@ public class Test02 {
         System.out.println("我是王迪");
     }
     private String lllll;
+    public void Av(){
+        System.out.println("迪哥看这里");
+    }
 
 }
