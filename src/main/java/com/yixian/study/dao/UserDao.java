@@ -3,7 +3,6 @@ package com.yixian.study.dao;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.yixian.study.dto.User;
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Component;
 
 /**
  * @author yixian

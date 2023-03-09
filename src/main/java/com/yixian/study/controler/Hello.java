@@ -4,9 +4,10 @@ import com.yixian.study.dao.UserDao;
 import com.yixian.study.dto.Student;
 import com.yixian.study.dto.User;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
+
+import javax.annotation.Resource;
 
 /**
  * @version V1.0
@@ -20,8 +21,7 @@ import org.springframework.web.bind.annotation.*;
 public class Hello {
 
 
-
-    @Autowired
+    @Resource(name = "userDao")
     UserDao userDao;
 
     @Value(value = "${person.name}")
@@ -35,7 +35,7 @@ public class Hello {
         log.info(user.toString());
         log.error(user.toString());
         log.warn(user.toString());
-        return name+"hello";
+        return name+"hello"+user;
     }
 
     @PostMapping(value = "/getStudent")
