@@ -8,6 +8,9 @@ package com.yixian.study.test;
  * @date 2023-02-13 14:59
  */
 public class Test02 {
+
+    private String test8888;
+
     public static void main(String[] args) {
         System.out.println("重生之我叫王迪");
 
