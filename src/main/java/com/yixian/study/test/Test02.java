@@ -9,7 +9,7 @@ package com.yixian.study.test;
  */
 public class Test02 {
 
-    private String test;
+    private String test8888;
 
     public static void main(String[] args) {
         System.out.println("我是王迪");
