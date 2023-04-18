@@ -16,6 +16,8 @@ public class Test02 {
 
         //迪哥专属
         System.out.println("我是王迪");
+
+        System.out.println("test");
     }
     private String lllll;
     public void Av(){
