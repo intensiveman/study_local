@@ -19,3 +19,6 @@ address:
 logging:
   file:
     path: /app/logs
+
+text:
+  url: localhost:8082
