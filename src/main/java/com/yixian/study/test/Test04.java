@@ -36,7 +36,7 @@ public class Test04 {
                 callerRunsPolicy   //拒绝策略
         );
 
-        Thread thread = new Thread();
+        Thread thread = new Thread();//2023年8月9日
 
 
 
