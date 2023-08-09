@@ -18,6 +18,7 @@ import javax.annotation.Resource;
 @RestController
 @RequestMapping("/api")
 @Slf4j
+
 public class Hello {
 
 
