@@ -24,7 +24,7 @@ public class Test07 {
             }
             t1 = 10;
             log.info("Thread1结束");
-        },"thread1");
+        }, "thread1");
         Thread thread2 = new Thread(() -> {
             t2 = 10;
             try {
@@ -33,13 +33,18 @@ public class Test07 {
                 e.printStackTrace();
             }
             log.info("Thread2结束");
-        },"thread2");
+        }, "thread2");
         thread1.start();
         thread2.start();
+        thread1.interrupt();
         long start = System.currentTimeMillis();
         thread1.join();
         thread2.join();
         long end = System.currentTimeMillis();
-        log.info("r1:{}, r2:{},count:{}", t1, t2,end-start);
+        log.info("r1:{}, r2:{},count:{}", t1, t2, end - start);
+        //打断标记
+        log.info("打断标记{}", thread1.isInterrupted());
+
+
     }
 }
