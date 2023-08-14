@@ -2,8 +2,6 @@ package com.yixian.study.test;
 
 import lombok.extern.slf4j.Slf4j;
 
-import javax.lang.model.element.VariableElement;
-import java.io.IOException;
 
 @Slf4j
 public class Test07 {
