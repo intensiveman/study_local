@@ -23,7 +23,9 @@ class StudyApplicationTests {
 
     @Test
     void contextLoads() {
-
+        int i;
+        i = 10;
+        System.out.println(i);
     }
 
 }
